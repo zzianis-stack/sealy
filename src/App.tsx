@@ -1,3 +1,4 @@
+import { Heading1 } from 'lucide-react'
 import './App.css'
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
     <>
       //Announcement bar, a rotating message on about seals
       <section className="annoucement_bar">
-      
+        
       </section>
 
       //A button wise area just for nagigating through the seal world
