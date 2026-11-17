@@ -1,33 +1,40 @@
+import { announcements } from "../data/education";
 import { useEffect, useState } from "react";
+import { Icon } from "./icons";
 
-const facts = [
-    "Seals can sleep underwater and surface to breathe.",
-    "They can swim underwater up to 25mph (40 km/h).",
-    "Seals have whiskers that help them detect vibrations in the water.",
-    "Some seals can hold their breath for over an hour.",
-    "Seals are carnivorous and primarily eat fish and squid.",
-    "There are over 30 species of seals worldwide.",
-    "Seals can live both in the water and on land.",
-    "They have a thick layer of blubber to keep them warm in cold waters.",
-    "Seals communicate through vocalizations and body language.",
-    "Some seal species are endangered due to habitat loss and hunting."
-];
-
-export function AnnouncementBar() {
-    const [current, setCurrentMsj] = useState(0);
-    
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentMsj((prev) => (prev + 1) % facts.length);
-        }, 5000);
-        return () => clearInterval(interval);
-    }, []);
-
-    return (
-        <div className="announcement-bar">
-            <p key={current} className="announcement-text">
-                {facts[current]}
-            </p>
-        </div>
+export default function AnnouncementBar() { 
+    const [index, setIndex] = useState(0);
+    const [paused, setPaused] = useState(
+        () => window.matchMedia("(prefers-reduced-motion: reduce)").matches,
     );
+    useEffect(() => {
+        const media = window.matchMedia("(prefers-reduced-motion: reduce)");
+        const onChange = () => {
+            if(media.matches) setPaused(true);
+        };
+        media.addEventListener("change", onChange);
+        return () => media.removeEventListener("change", onChange);
+    }, []);
+    useEffect(() => {
+        if(paused) return;
+        const timer = window.setInterval(
+            () => setIndex((current) => (current + 1) % announcements.length),
+            7000,
+        );
+        return () => window.clearInterval(timer);
+    }, [paused]);
+    return (
+        <aside className="annoucement" aria-label="Announcement">
+            <div className="annoucement-insides">
+                <span className="fact-label">
+                    <Icon name="spark" /> LIL OCEAN KNOWLEDGE
+                </span>
+                <p key={index}>{announcements[index]}</p>
+            </div>
+        </aside>
+    )
 }
+
+//Future plans, add a control menu that allows for control of resume pause and change message.
+
+//Used ai here to debug the import of Icons, to realise that I didnt have react installed..

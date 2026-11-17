@@ -1,0 +1,146 @@
+:root {
+    --ink: #173f3b;
+    --ocean: #103c3a;
+    --teal: #23716b;
+    --mint: #dceac9;
+    --paper: #f9f9f3f5;
+    --cream: #f0f0e6;
+    --sand: #e6dac2;
+    --muted: #687773;
+    --line: #dce1d7;
+    --white: #fff;
+    --radius: 14px;
+    --max: 1320px;
+    --font-body: Arial,Helvetica,sans-serif;
+    --font-display: Georgia,"Times New Roman",serif;
+    color: var(--ink);
+    background-color: var(--paper);
+    font-family: var(--font-body);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+button,
+input,
+select{
+    font: inherit;
+}
+button,
+a,
+input,
+select,
+summary{
+    -webkit-tap-highlight-color: transparent;
+}
+button,
+select,
+summary{
+    cursor: pointer;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+img,
+svg {
+    display: block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+button {
+    color: inherit;
+}
+button:disabled {
+    cursor: not-allowed;
+}
+h1,h2,h3,p {
+    margin: 0;
+}
+h1,h2 {
+    font-weight: 400;
+    font-family: var(--font-display);
+    letter-spacing: -0.045em;
+    line-height: 1.08;
+}
+h1 {
+    font-size: clamp(3.2rem, 6.2vwm, 6rem);
+}
+h2 {
+    font-size: clamp(2.35rem, 3.6vwm, 3.65rem);
+}
+h3 {
+    font-size: 1.3rem;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+}
+h1 em,
+h2 em {
+    font-weight: 400;
+}
+p {
+    line-height: 1.7;
+}
+button {
+    border: 0;
+}
+a,
+button,
+input,
+select,
+summary {
+    touch-action: manipulation;
+}
+::selection {
+    background-color: var(--mint);
+    color: var(--ocean);
+}
+:focus-visible {
+    outline: 3px solid #c0753f;
+    outline-offset: 5px;
+}
+main:focus {
+    outline: none;
+}
+h2:focus:not(:focus-visible){
+    outline: none;
+}
+[id] {
+    scroll-margin-top: 110px;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+}
+.icon{
+    flex-shrink: 0;
+}
+.rotate {
+    transform: rotate(90deg);
+}
+.muted {
+    color: var(--muted);
+}
+@media (prefers-reduced-motion: reduce) {
+    * 
+    *::before
+    *::after {
+        animation-duration: 0.001s !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001s !important;
+        scroll-behavior: auto !important;
+    }
+}

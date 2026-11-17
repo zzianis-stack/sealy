@@ -1,0 +1,37 @@
+@media (max-width: 760px) {
+    .container {
+        width: calc(100% - 40px);
+    }
+    .section {
+        padding-block: 55px;
+    }
+    .section-heading {
+        display: block;
+    }
+    .section-heading > p {
+        margin-top: 20px;
+    }
+    .page-section {
+        padding-block: 40px 60px;
+    }
+    .announcement-inner {
+        width: calc(100% - 30px);
+        gap: 8px;
+        min-height: 47px;
+    }
+    .fact-label {
+        display: none;
+    }
+    .announcement p {
+        font-size: 0.62rem;
+    }
+    .announcement-controls button {
+        width: 28px;
+        height: 40px;
+    }
+}
+@media (min-width: 761px) and (max-width: 1100px) {
+    .container {
+        width: calc(100% - 64px);
+    }
+}

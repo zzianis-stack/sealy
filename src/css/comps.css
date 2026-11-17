@@ -1,0 +1,55 @@
+.announcement {
+    background-color: var(--ocean);
+    color: #e4edda;
+    font-size: 0.69rem;
+    min-height: 40px;
+}
+.announcement-inner {
+    width: min(var(--max), calc(100% - 112px));
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    min-height: 40px;
+}
+.fact-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.13em;
+    white-space: nowrap;
+    font-weight: 600;
+}
+.fact-label .icon {
+    width: 13px;
+    height: 13px;
+}
+.announcement p {
+    flex: 0 1 auto;
+    line-height: 1.4;
+    animation: fade-up 0.35s ease;
+}
+.announcement-controls {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+.announcement-controls button {
+    background: transparent;
+    color: #d6e6d3;
+    width: 32px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+.announcement-controls .icon {
+    width: 12px;
+    height: 12px;
+}
+.announcement-controls button:hover {
+    background-color: #ffffff15;
+}
