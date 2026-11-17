@@ -1,8 +1,18 @@
 export type IconName =
-  | "spark";
+  | "spark"
+  | "close"
+  | "check"
+  | "menu"
+  | "search"
+  | "arrow";
 
 const paths: Record<IconName ,string> = {
-    spark: "m12 2 3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7"
+    spark: "m12 2 3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7",
+    close: "m6 6 12 12M6 18 18 6",
+    check: "m5 12 4 4L19 6",
+    menu: "M4 6h16M4 12h16M4 18h16",
+    search: "m21 21-5-5M18 10a8 8 0 1 1-16 0 8 8 0 1 16 0",
+    arrow: "M4 12h16m-6-6 6 6-6 6"
 };
 
 export function Icon({

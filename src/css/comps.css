@@ -4,7 +4,7 @@
     font-size: 0.69rem;
     min-height: 40px;
 }
-.announcement-inner {
+.announcement-insides {
     width: min(var(--max), calc(100% - 112px));
     margin: auto;
     display: flex;
@@ -14,10 +14,10 @@
     min-height: 40px;
 }
 .fact-label {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 10px;
-    font-size: 0.13em;
+    gap: 8px;
+    font-size: 0.68em;
     white-space: nowrap;
     font-weight: 600;
 }
@@ -27,7 +27,9 @@
 }
 .announcement p {
     flex: 0 1 auto;
+    margin: 0;
     line-height: 1.4;
+    font-size: 0.78rme;
     animation: fade-up 0.35s ease;
 }
 .announcement-controls {
@@ -52,4 +54,89 @@
 }
 .announcement-controls button:hover {
     background-color: #ffffff15;
+}
+.site_header {
+    position: sticky;
+    top: 0;
+    background: #f9f9f3f5;
+    backdrop-filter: blur(14px);
+    z-index: 20;
+    border-bottom: 1px solid #dce1d77a;
+}
+.nav-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    height: 88px;
+}
+.brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    flex-shrink: 0;
+}
+.brand > span {
+    font-size: 2.05rem;
+    font-weight: 700;
+    letter-spacing: -0.09em;
+    line-height: 1;
+}
+.brand-dot {
+    color: #799576;
+}
+.brand > svg {
+    width: 44px;
+    height: 33px;
+}
+.navigation {
+    display: flex;
+    gap: 27px;
+    align-items: center;
+}
+.navigation > a {
+    font-size: 0.77rem;
+    position: relative;
+    padding: 17px 0;
+    white-space: nowrap;
+}
+.navigation > a::after {
+    content: "";
+    height: 2px;
+    width: 0;
+    background: var(--ink);
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+}
+.navigation > a:hover::after,
+.navigation > a[aria-current]::after {
+    width: 100%;
+}
+.navigation > a[aria-current] {
+    font-weight: 700;
+}
+.nav-cta {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 0.75rem;
+    padding: 12px 17px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+}
+.nav-cta:hover {
+    background: var(--mint);
+}
+.nav-cta .icon {
+    width: 17px;
+    height: 17px;
+}
+.menu-toggle {
+    display: none;
+    background: transparent;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
 }

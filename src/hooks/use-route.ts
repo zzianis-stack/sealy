@@ -5,7 +5,7 @@ export function readPath(): string {
     try {
         return decodeURIComponent(raw).replace(/\/+$/, "") || "/";
     } catch {
-        return "/invaluid";
+        return "/invalid";
     }
 }
 

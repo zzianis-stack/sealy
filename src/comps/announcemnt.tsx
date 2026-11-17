@@ -2,7 +2,7 @@ import { announcements } from "../data/education";
 import { useEffect, useState } from "react";
 import { Icon } from "./icons";
 
-export default function AnnouncementBar() { 
+export default function Announcement() { 
     const [index, setIndex] = useState(0);
     const [paused, setPaused] = useState(
         () => window.matchMedia("(prefers-reduced-motion: reduce)").matches,
@@ -25,9 +25,9 @@ export default function AnnouncementBar() {
     }, [paused]);
     return (
         <aside className="annoucement" aria-label="Announcement">
-            <div className="annoucement-insides">
+            <div className="announcement-insides">
                 <span className="fact-label">
-                    <Icon name="spark" /> LIL OCEAN KNOWLEDGE
+                    <Icon name="spark" /> LIL OCEAN KNWOLEDGE
                 </span>
                 <p key={index}>{announcements[index]}</p>
             </div>
