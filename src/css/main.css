@@ -135,8 +135,8 @@ h2:focus:not(:focus-visible){
     color: var(--muted);
 }
 @media (prefers-reduced-motion: reduce) {
-    * 
-    *::before
+    *,
+    *::before,
     *::after {
         animation-duration: 0.001s !important;
         animation-iteration-count: 1 !important;

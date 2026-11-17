@@ -1,16 +1,26 @@
 import AnnouncementBar from './comps/announcemnt';
 import Navbar from "./comps/navbar";
+import Home from "./pages/home";
 import { useRoute } from "./hooks/use-route";
 import './App.css';
 
 export default function App() {
   const path = useRoute();
-  let content;
+
   return (
     <>
       <AnnouncementBar />
       <Navbar path={path} />
-      <main id="main-content">{content}</main>
+      <main id="main-content">
+        {path === "/" ? (
+          <Home /> 
+        ):(
+          <section className="container page-section">
+            <h1>More seals SOON!</h1>
+            <p>This part of the ocean is still being explored.</p>
+          </section>
+        )}
+      </main>
     </>
   );
 }

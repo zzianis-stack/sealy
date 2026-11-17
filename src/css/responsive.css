@@ -69,6 +69,39 @@
     .brand > span {
         font-size: 1.8rem;
     }
+    .hero,
+    .hero-inner {
+        min-height: 650px;
+    }
+    .hero-copy {
+        max-width: 100%;
+        padding: 220px 0 90px;
+    }
+    .hero h1 {
+        font-size: clamp(3.4rem, 16vw, 5.3rem);
+    }
+    .hero-photo {
+        object-position: 68% 50%;
+    }
+    .hero-shade {
+        background: linear-gradient(0deg, #082f31fa, #0a3334de 30%, #092d2f22);
+    }
+    .hero-caption {
+        display: none;
+    }
+    .hero-bottom {
+        padding: 18px 20px;
+        font-size: 0.4rem;
+    }
+    .hero-note {
+        font-size: 0.62rem;
+    }
+    .hero-secondary{
+        font-size: 0.75rem;
+    }
+    .hero .button-row {
+        gap: 16px;
+    }
 }
 
 @media (min-width: 761px) and (max-width: 1100px) {
