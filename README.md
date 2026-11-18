@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Found the readme guide finally
 
 #Sealy
@@ -185,3 +186,7 @@ And if someone else ends up enjoying it too, that's even better.
 
 P.S. *The seals have not approved this creative direction. Their representatives remain suspiciously silent.*
 P.S.S> And I spend un ungodly amount of time to pour my heart in hear, you're welcome :3
+=======
+# sealy
+Are you one of those seal addicts? You're welcome &lt;3
+>>>>>>> origin/main
