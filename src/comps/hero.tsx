@@ -4,7 +4,7 @@ export default function Hero() {
     return(
         <section className="hero" aria-labelledby="hero-title">
             <WildlifeImage 
-                src="/imgs/hero/grey-seal-halichoerus-gyrups.jpg"
+                src={`${import.meta.env.BASE_URL}imgs/hero/grey-seal-halichoerus-gyrups.jpg`}
                 alt="Easter Egg :]"
                 className="hero-photo"
             />
