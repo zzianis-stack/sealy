@@ -68,7 +68,7 @@ It struck an idea in my mind to make an announcement bar simillar to what Shopif
 
 ###Ver 0.1.2 - Finished Annouuncements
 
-From previous *Ver 0.1.1* I have more refined ti and established the inital website structure and tought I fixed the announcement bar.. followed by styling required to get everything to look nice and neat. I can confidently say this is a MK. 2 of zis bar.
+From previous *Ver 0.1.1* I have more refined it and established the inital website structure and tought I fixed the announcement bar.. followed by styling required to get everything to look nice and neat. I can confidently say this is a MK. 2 of zis bar.
 
 ###Ver 0.2.1 - Implemented a working Navigation Bar
 *I have pronounced announcement bar so many times, that I call it now 'The Cement bar'*
@@ -93,6 +93,34 @@ Hopefully, the homepage will finally look less like an empty ocean.
 Want to run Sealy on your own computer? Here's how.
 
 You'll need Node.js and npm installed.
+
+###Ver 1.0.0 - Publishing Moment
+*The first time the seals are released into the wild.*
+
+Well, well, well... LOOK WHO MADE IT'S FIRST APEERENCE.
+
+After an ungodly ammount of CSS headaches, questionable decisions, an impossible amount of debugging and a concering number of seal-related distractions, Sealy is reaching the interner with its first public release.
+
+I started from a plain 'ol Vite template, made a new descovery, the infamous "Cement Bar" (which somehow neede THREE gens to work), introduced the nav bar, welcomed our very first seal to the homepage and somehow.. ended up developing an entire music player for sea lion FM.
+
+Yes. **Sea lion music**. G Lion, you'rea a absoulte goat for those, thank you!
+
+This version brings together everything I've worked so far:
+- A proper homepage, with an actual seal! (for now)
+- The legendary Cement Bar and its rotating ocean facts.
+- A responsive nav bar.
+- Sealy FM, featuring real seal music, playback controls and a playlist. 
+- A somewhat decent mobile experience (hopefully, didnt test it yet)
+
+Not even close to finishing, planned ahead The Lib and Quid, but I couldn't wait to share massive SEAL propaganda online <3
+
+Being the first ever release that I am geniuenly hyped about, there's an awesome feeling about that.
+
+Live Website: ill update with live demo
+
+Source Code: https://github.com/zzianis-stack/sealy
+
+P.S. *The seals have requested a launch delay. Management has declined.*
 
 ##1. Clone the repo
 ```sh

@@ -6,6 +6,7 @@ export const navigation = [
     ["Explore", "/explore"],
     ["Species Library", "/library"],
     ["Seal vs Sea Lion", "/compare"], //HMM Who would win in this contest ? :]
+    ["Sealy FM", "/radio"], //Ian from the future, this is fire, best idea yet
     ["Quiz", "/quiz"],
     ["About", "/about"],
 ] as const;

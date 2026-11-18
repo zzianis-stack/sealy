@@ -1,0 +1,215 @@
+.radio-page {
+    background: linear-gradient(180deg, #103b40, #092b31);
+    color: #f5f0df;
+    padding: 80px 6%;
+    min-height: 100vh;
+}
+.radio-intro {
+    max-width: 750px;
+    margin: 0 auto 55px;
+    text-align: center;
+}
+.radio-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #a2ded0;
+}
+.radio-intro h1 {
+    font-size: clamp(48px, 8vw, 100px);
+    margin: 15px 0;
+    line-height: 1;
+}
+.radio-subtitle {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.radio-intro > p:not(.radio-label) {
+    line-height: 1.7;
+}
+.radio-layout {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 25px;
+    max-width: 1200px;
+    margin: auto;
+}
+.radio-player,
+.radio-playlist,
+.radio-credit {
+    background: #15464a;
+    border: 1px solid #326669;
+    border-radius: 20px;
+    padding: 30px;
+}
+.radio-player h2 {
+    font-size: 36px;
+    margin: 18px 0 5px;
+}
+.radio-artist {
+    color: "#bad4cf";
+    margin-bottom: 30px;
+}
+.radio-embed {
+    overflow: hidden;
+    border-radius: 12px;
+    background: #102f34;
+}
+.radio-embed iframe {
+    display: block;
+    width: 100%;
+    border: 0;
+}
+.radio-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 24px;
+}
+.radio-controls button {
+    background: #bce7d7;
+    color: #103238;
+    border: 0;
+    border-radius: 10px;
+    padding: 12px 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.radio-controls button:hover {
+    background: #f5f0df;
+}
+.radio-controls button:focus-visible,
+.radio-song:focus-visible,
+.radio-credit-links a:focus-visible {
+    outline: 3px solid #f5f0df;
+    outline-offset: 3px;
+}
+.radio-help{
+    color: "#a4c7c3";
+    font-size: 13px;
+    margin-top: 20px;
+}
+.radio-playlist h2 {
+    margin: 0 0 10px;
+}
+.radio-playlist > p {
+    color: #b6d4cf;
+    margin-bottom: 25px;
+}
+.radio-playlist ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.radio-playlist li {
+    margin-bottom: 10px;
+}
+.radio-song {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    text-align: left;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 16px;
+    background: #205359;
+    color: #f5f0df;
+    cursor: pointer;
+}
+.radio-song:hover,
+.radio-song.active {
+    background: #2b666b;
+    border-color: #a2ded0;
+}
+.radio-song-number {
+    color: #a2ded0;
+    font-weight: 700;
+}
+.radio-song-info small,
+.radio-duration {
+    color: #c0d8d3;
+}
+.radio-credits {
+    max-width: 1200px;
+    margin: 25px auto 0;
+}
+.radio-credits p {
+    line-height: 1.7;
+}
+.radio-credit-links {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+.radio-credit-links a {
+    color: #bce7d7
+}
+.radio-seek {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 30px 0 20px;
+}
+.radio-seek span {
+    min-width: 35px;
+    font-size: 13px;
+    color: #b6d4cf;
+}
+.radio-seek input {
+    flex: 1;
+    min-width: 0;
+    cursor: pointer;
+    accent-color: #bce7d7;
+}
+.radio-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.radio-play-button {
+    background: #f5f0df !important;
+    font-size: 16px;
+    min-width: 110px;
+}
+.radio-volume {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 28px;
+    font-size: 13px;
+    color: #b6d4cf;
+}
+.radio-volume input {
+    flex: 1;
+    min-width: 0;
+    accent-color: #bce7d7;
+    cursor: pointer;
+}
+.radio-error {
+    color: #ffb4a9;
+    margin-top: 15px;
+}
+@media (max-width: 800px) {
+    .radio-page {
+        padding: 55px 20px;
+    }
+    .radio-layout {
+        grid-template-columns: 1fr;
+    }
+    .radio-player,
+    .radio-playlist,
+    .radio-credits {
+        padding: 20px;
+    }
+    .radio-player h2 {
+        font-size: 28px;
+    }
+    .radio-controls button {
+        padding: 10px 12px;
+    }
+}
