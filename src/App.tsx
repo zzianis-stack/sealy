@@ -3,7 +3,7 @@ import Navbar from "./comps/navbar";
 import Home from "./pages/home";
 import Radio from "./pages/radio";
 import { useRoute } from "./hooks/use-route";
-import './app.css';
+import './App.css';
 
 export default function App() {
   const path = useRoute();
