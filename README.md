@@ -12,7 +12,9 @@ I'm trying to make it informative, interactive and actually enjoyable to exlpore
 
 And yeah, I am aware that I could have chosen a more normal obession.
 
+<img width="1568" height="776" alt="Screenshot 2026-11-18 at 07 21 51" src="https://github.com/user-attachments/assets/68c9ed80-2c09-4b54-a434-578eb4c5709e" />
 ## Who Am I
+
 I'm Ian, 17 years old and this is my first time actually building such a big project where I am needed to properly document my progress, maintain a README, and make meaningful GitHub commits.
 
 I've programmed before, but this is a totally diffrent experience. Instead of making something generic or trying to reinvent the wheel and calling the day, I'm trying to build a proper website from the grounds up.
@@ -102,6 +104,8 @@ After an ungodly ammount of CSS headaches, questionable decisions, an impossible
 I started from a plain 'ol Vite template, made a new descovery, the infamous "Cement Bar" (which somehow neede THREE gens to work), introduced the nav bar, welcomed our very first seal to the homepage and somehow.. ended up developing an entire music player for sea lion FM.
 
 Yes. **Sea lion music**. G Lion, you'rea a absoulte goat for those, thank you!
+
+<img width="1501" height="894" alt="Screenshot 2026-11-18 at 07 22 06" src="https://github.com/user-attachments/assets/543af057-c9f8-4d7a-a81c-af58021524b3" />
 
 This version brings together everything I've worked so far:
 - A proper homepage, with an actual seal! (for now)
