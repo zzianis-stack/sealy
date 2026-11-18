@@ -13,6 +13,7 @@ I'm trying to make it informative, interactive and actually enjoyable to exlpore
 And yeah, I am aware that I could have chosen a more normal obession.
 
 <img width="1568" height="776" alt="Screenshot 2026-11-18 at 07 21 51" src="https://github.com/user-attachments/assets/68c9ed80-2c09-4b54-a434-578eb4c5709e" />
+
 ## Who Am I
 
 I'm Ian, 17 years old and this is my first time actually building such a big project where I am needed to properly document my progress, maintain a README, and make meaningful GitHub commits.
