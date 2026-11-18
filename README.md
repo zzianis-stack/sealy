@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-Found the readme guide finally
-
 #Sealy
 
 ##A smol corner of the world wide web dedicated to seals and sea lions. (and addicts, like me)
@@ -185,8 +182,6 @@ I want to look back at this project one day and remember what it was like being 
 And if someone else ends up enjoying it too, that's even better.
 
 P.S. *The seals have not approved this creative direction. Their representatives remain suspiciously silent.*
-P.S.S> And I spend un ungodly amount of time to pour my heart in hear, you're welcome :3
-=======
-# sealy
+P.S.S I spent un ungodly amount of time to pour my heart in hear, you're welcome :3
 Are you one of those seal addicts? You're welcome &lt;3
 >>>>>>> origin/main
