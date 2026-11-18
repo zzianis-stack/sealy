@@ -1,6 +1,6 @@
-#Sealy
+# Sealy
 
-##A smol corner of the world wide web dedicated to seals and sea lions. (and addicts, like me)
+## A smol corner of the world wide web dedicated to seals and sea lions. (and addicts, like me)
 
 Heyy! Welcome to Sealy.
 
@@ -12,7 +12,7 @@ I'm trying to make it informative, interactive and actually enjoyable to exlpore
 
 And yeah, I am aware that I could have chosen a more normal obession.
 
-##Who Am I
+## Who Am I
 I'm Ian, 17 years old and this is my first time actually building such a big project where I am needed to properly document my progress, maintain a README, and make meaningful GitHub commits.
 
 I've programmed before, but this is a totally diffrent experience. Instead of making something generic or trying to reinvent the wheel and calling the day, I'm trying to build a proper website from the grounds up.
@@ -21,7 +21,7 @@ Dis README will document my suffering, discoveries, questionable decisions, and 
 
 Excuse any spelling mistakes or wrongfull wording along the way. I'm still doing my best figuring this whole thing out.
 
-##What Is Sealy Capable Of?
+## What Is Sealy Capable Of?
 The website is being developed progressively, so not everything mentioned after this is implemented yet or/and will ever be, yet..
 
 - Ocean facts
@@ -35,7 +35,7 @@ The website is being developed progressively, so not everything mentioned after 
 
 I wanna the final website to feel like a genuine little passion project, not js another generic educational template.
 
-##How Was It Made?
+## How Was It Made?
 ###Tech Stack
 *Idk how to make a table grid so imma do my best*
 
@@ -45,7 +45,7 @@ TS | Structure, backbone and type safety, i'm looking at you JavaScript
 Vite | Development server and production builds
 CSS | What is there to say 'bout him
 
-##How the Project Is Structured
+## How the Project Is Structured
 
 The applications use reusable React comps, organized into separate files.
 
@@ -53,22 +53,22 @@ App.tsx acts as the root app component. It brings elements such as the announcem
 
 The homepage is managed by pages/home.tsx, separatly, while components like the hero, navbar and icons have their own files.
 
-##Dev Log
+## Dev Log
 *Anything that deservers a dedicated note*
 
-###Ver 0.0.1 - Foundation
+### Ver 0.0.1 - Foundation
 
 A very boring Vite template backthen that I tought was enough, till it proved it wasn't.
 
-###Ver 0.1.1 - Tentative to announcements
+### Ver 0.1.1 - Tentative to announcements
 
 It struck an idea in my mind to make an announcement bar simillar to what Shopify has with a rotating beautifull message. Here it was a prototype still, prototype MK. 1
 
-###Ver 0.1.2 - Finished Annouuncements
+### Ver 0.1.2 - Finished Annouuncements
 
 From previous *Ver 0.1.1* I have more refined it and established the inital website structure and tought I fixed the announcement bar.. followed by styling required to get everything to look nice and neat. I can confidently say this is a MK. 2 of zis bar.
 
-###Ver 0.2.1 - Implemented a working Navigation Bar
+### Ver 0.2.1 - Implemented a working Navigation Bar
 *I have pronounced announcement bar so many times, that I call it now 'The Cement bar'*
 
 Introducing a new and posibly not the final version of Navbar, introducing MK.1 of Navigation Bar. Implemented a custom Sealy logo, navigation links, a mobile menu and finished styling, beyond my ability to comprehend css lines, now I write what souunds good and it works. 
@@ -78,7 +78,7 @@ The final and finished version of the announcement bar, like a MK. 3 but finnall
 A particular annoying issue involved CSS class names not matching their corresponding JSX elements.
 A tiny typo made my life a living hell and a website to forget how to behave.
 
-###Ver 0.3.1 - THE FIRST SEAL
+### Ver 0.3.1 - THE FIRST SEAL
 
 The next logical step was to give it a homepage with an actual identity.
 
@@ -92,7 +92,7 @@ Want to run Sealy on your own computer? Here's how.
 
 You'll need Node.js and npm installed.
 
-###Ver 1.0.0 - Publishing Moment
+### Ver 1.0.0 - Publishing Moment
 *The first time the seals are released into the wild.*
 
 Well, well, well... LOOK WHO MADE IT'S FIRST APEERENCE.
@@ -120,24 +120,24 @@ Source Code: https://github.com/zzianis-stack/sealy
 
 P.S. *The seals have requested a launch delay. Management has declined.*
 
-##1. Clone the repo
+## 1. Clone the repo
 ```sh
 git clone https://github.com/zzianis-stack/sealy.git
 cd Sealy
 ```
 
-##2. Install dependencies
+## 2. Install dependencies
 `npm install`
 
-##3. Start the development server
+## 3. Start the development server
 `npm run dev`
 Open the local address Vite displays, usually http://localhost:5173/.
 
-##4. Build for production
+## 4. Build for production
 `npm run build`
 The production files will be generated inside the dist/ folder.
 
-##5. Preview the build
+## 5. Preview the build
 `npm run preview`
 Congrats. You're now running a website dedicated to animals that spend toooo much time of their lives doing absolutely nothing.
 
@@ -147,7 +147,7 @@ Live Demo: Comming soon.
 
 Screenshots: Comming soon.
 
-##Next?
+## Next?
 
 - Finish the homepage
 - Add more content
@@ -159,7 +159,7 @@ Screenshots: Comming soon.
 - Test and polish the complete website.
 - Deploy Sealy to you.
 
-##Ai Disclosure
+## Ai Disclosure
 
 I've used AI, I won't deny it, primarily ChatGPT, throught parts of the development process.
 
@@ -169,7 +169,7 @@ Some code started as AI-generated examples, which I've been integrating into the
 
 I don't want to pretend I wrote every single line completly independently. The point of this project is to build something I'm geniunely interested in while improving my programming skills and getting a better hang of websites.
 
-##Final Note
+## Final Note
 
 Sealy is a still work in progress.
 
@@ -184,4 +184,3 @@ And if someone else ends up enjoying it too, that's even better.
 P.S. *The seals have not approved this creative direction. Their representatives remain suspiciously silent.*
 P.S.S I spent un ungodly amount of time to pour my heart in hear, you're welcome :3
 Are you one of those seal addicts? You're welcome &lt;3
->>>>>>> origin/main
